@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigo.TWRTradeDataExporterWinService", "Indigo.TWRTradeDataExporter\Indigo.TWRTradeDataExporterWinService.csproj", "{E6C37686-AE1E-4600-97BC-7E8DC5222D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigo.TWRTradeExporter.CLI", "Indigo.TWRTradeExporter.CLI\Indigo.TWRTradeExporter.CLI.csproj", "{0B763480-B189-493D-A78E-37CF97617888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigo.TWRTradeDataExporter.DataExtractor", "Indigo.TWRTradeDataExporter.DataExtractor\Indigo.TWRTradeDataExporter.DataExtractor.csproj", "{C0B02956-8A00-431A-A5F3-5F9BF038CD40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigo.TWRTradeDataExporter.PricingEngine", "Indigo.TWRTradeDataExporter.PricingEngine\Indigo.TWRTradeDataExporter.PricingEngine.csproj", "{495A9B64-75EA-4E42-AEF5-7B9277ACA4B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigo.TWRTradeDataExporter.EnqueueToServiceBus", "Indigo.TWRTradeDataExporter.EnqueueToServiceBus\Indigo.TWRTradeDataExporter.EnqueueToServiceBus.csproj", "{C8AF9FE7-B108-4AE8-A7DF-40AFD68C1972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigo.TWRTradeExporter.StateTracking", "Indigo.TWRTradeExporter.StateTracking\Indigo.TWRTradeExporter.StateTracking.csproj", "{522D7EC2-EA27-40E8-ABEF-3551E47BAEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indigo.TWRTradeExporter.Tests", "Indigo.TWRTradeExporter.Tests\Indigo.TWRTradeExporter.Tests.csproj", "{791BE457-CC19-4981-ACBA-01627FC9D958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C37686-AE1E-4600-97BC-7E8DC5222D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C37686-AE1E-4600-97BC-7E8DC5222D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C37686-AE1E-4600-97BC-7E8DC5222D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C37686-AE1E-4600-97BC-7E8DC5222D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B763480-B189-493D-A78E-37CF97617888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B763480-B189-493D-A78E-37CF97617888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B763480-B189-493D-A78E-37CF97617888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B763480-B189-493D-A78E-37CF97617888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B02956-8A00-431A-A5F3-5F9BF038CD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B02956-8A00-431A-A5F3-5F9BF038CD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B02956-8A00-431A-A5F3-5F9BF038CD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B02956-8A00-431A-A5F3-5F9BF038CD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495A9B64-75EA-4E42-AEF5-7B9277ACA4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495A9B64-75EA-4E42-AEF5-7B9277ACA4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495A9B64-75EA-4E42-AEF5-7B9277ACA4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495A9B64-75EA-4E42-AEF5-7B9277ACA4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AF9FE7-B108-4AE8-A7DF-40AFD68C1972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AF9FE7-B108-4AE8-A7DF-40AFD68C1972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AF9FE7-B108-4AE8-A7DF-40AFD68C1972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AF9FE7-B108-4AE8-A7DF-40AFD68C1972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522D7EC2-EA27-40E8-ABEF-3551E47BAEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522D7EC2-EA27-40E8-ABEF-3551E47BAEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522D7EC2-EA27-40E8-ABEF-3551E47BAEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522D7EC2-EA27-40E8-ABEF-3551E47BAEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791BE457-CC19-4981-ACBA-01627FC9D958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791BE457-CC19-4981-ACBA-01627FC9D958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791BE457-CC19-4981-ACBA-01627FC9D958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791BE457-CC19-4981-ACBA-01627FC9D958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAFF3376-93FF-44D0-920C-19066830973D}
+	EndGlobalSection
+EndGlobal

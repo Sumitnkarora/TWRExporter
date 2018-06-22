@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>IPM.TradeDataExporter.CLI</id>
+    <version>$version$</version>
+    <title>Trade Data Exporter</title>
+    <authors>Indigo Books and Music</authors>
+    <description>IPM TradeDataExporter</description>
+  </metadata>
+</package>
